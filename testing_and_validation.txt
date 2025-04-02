@@ -1,0 +1,25 @@
+Conjunto de pruebas para asegurar el correcto funcionamiento del robot.
+
+1- Pruebas de movilidad:
+  Verificar que el robot se desplaza correctamente en diferentes condiciones.
+    Ejemplos de pruebas--> movimiento en línia recta, maniobras de giro, superación de obstáculos, movimiento en diferentes superfícies...
+
+2- Pruebas de detección de instrusos:
+  Evaluar la precisión del robot para detectar movimiento/personas.
+    Ejemplos de pruebas--> Prueba con persona real, prueba con un falso positivo, distancia de detección, detección en diferentes condiciones de luz...
+
+3- Pruebas de respuesta:
+  Comprobar si reacciona de manera correcta frente una amenaza.
+    Ejemplos de pruebas--> que tipo de respuesta es la mejor, que pasos son los más óptimas después de detectar la amenaza (lo sigue?, lo ignora?...) 
+
+4- Pruebas de reacción frente a un fallo en el sistema:
+  Cuál es la mejor reacción frente a una posible avería/fallo en el sistema.
+    Ejemplos de pruebas--> fallos de Wifi, fallos en el motor...
+
+5- Pruebas de autonomía:
+  Cómo de autónomo y independiente es el robot?
+    Ejemplos de pruebas--> prubeas de batería, pruebas de consumo de energía...
+
+6- Pruebas de fiabilidad:
+  Verificar como de versátil, fiable y robusto es nuestro robot.
+    Ejemplos de pruebas--> pruebas de larga duración, pruebas de golpes y caídas...
