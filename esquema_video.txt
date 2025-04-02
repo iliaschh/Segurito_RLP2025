@@ -1,0 +1,26 @@
+Esquema inical del vídeo:
+
+1- Introducción: 
+(X min)
+    Presentación de cada miembro del grupo
+    Presentación del objetivo de nuestro robot
+
+2- Diseño y componentes: 
+(X min)
+    Estructura definida, materiales utilizados y componentes principales
+
+3- Funcionalidad y SW: 
+(X min)
+    Explicación de la lógica del código ( como detecta las amenazas, como actúa frente a ellas... )
+    Uso y integración de Inteligencia Artificial en el robot
+
+4- Testing & Validation:
+(X min)
+    Mostrar el robot en acción en diferentes escenarios para demostrar su correcto funcionamiento y habilidades
+    Explicar mejoras aplicadas a través de los resultados de las pruebas realizadas
+
+
+
+Duración del vídeo--> X min
+
+Cosas a tener en cuenta en el vídeo--> mantener el vídeo dinámico, buen sonido (si no añadir subtítulos), usar apoyo visual (tablas, diagramas...) 
