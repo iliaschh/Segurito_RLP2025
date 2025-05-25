@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>segurito</name>
+  <version>0.1.1</version>
+  <description>Nodos mínimos del robot Segurito para ROS 2 Humble.</description>
+  <maintainer email="tu_email@example.com">Tu Nombre</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>launch</build_depend>
+  <build_depend>launch_ros</build_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
