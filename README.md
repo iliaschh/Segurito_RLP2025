@@ -79,13 +79,11 @@ El chasis completo del robot y los soportes de los componentes han sido diseñad
 - `models/SegundaPlanta.stl`
 - `models/Cupula.stl`
 
-<details>
   <summary>Vista Previa del Ensamblaje 3D</summary>
 
   ![Vista Previa 3D](img/3Dpiece1.png)
   ![Vista Previa 3D](img/3Dpiece2.png)
   ![Vista Previa 3D](img/3Dpiece3.png)
-</details>
 
 ---
 
