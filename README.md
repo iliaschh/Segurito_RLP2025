@@ -59,15 +59,22 @@ Segurito combina hardware robusto con módulos de software inteligentes para ofr
 
 | Componente                  | Cantidad | Costo Aprox. (USD) | Enlace al Proveedor     |
 |-----------------------------|:--------:|-------------------:|-------------------------|
-| Sensor LiDAR (YDLIDAR X4)   |    1     |            350.00  | [Enlace](https://...)   |
-| Raspberry Pi 4B (4 GB RAM)  |    1     |             55.00  | [Enlace](https://...)   |
-| Sensor de Movimiento PIR    |    1     |              5.00  | [Enlace](https://...)   |
-| Pi Camera HQ                |    1     |             50.00  | [Enlace](https://...)   |
-| Módulo Zumbador y Micrófono |    1     |             10.00  | [Enlace](https://...)   |
-| Batería (12 V, 5000 mAh)    |    1     |             45.00  | [Enlace](https://...)   |
-| Controladores de Motores    |    2     |             40.00  | [Enlace](https://...)   |
-| Chasis Impreso en 3D        |    1     |             70.00  | —                       |
-| **Total**                   |          |           **625.00**|                         |
+| Micro Metal Motors          |    2     |            35.00   | [Enlace](https://tienda.bricogeek.com/motores/113-motor-micro-metal-lp-con-reductora-10-1.html)                   |
+| Raspberry Pi 4B (4 GB RAM)  |    1     |             67.90  | [Enlace](https://tienda.bricogeek.com/placas-raspberry-pi/1330-raspberry-pi-4-model-b-4-gb.html)                  |
+| Sensor de Movimiento PIR    |    1     |              1.85  | [Enlace](https://tienda.bricogeek.com/sensores-distancia/1270-modulo-sensor-pir-hc-sr501.html)                    |
+| RPLIDAR-C1                  |    1     |             79.95  | [Enlace](https://tienda.bricogeek.com/sensores-distancia/1943-rplidar-c1-360-grados-12-metros-ip54.html)          |
+| Acelerometro y Giroscopio   |    1     |             2.95   | [Enlace](https://tienda.bricogeek.com/acelerometros/1682-modulo-gy-521-acelerometro-y-giroscopio-mpu-6050.html)   |
+| Ruedas Solarbotic           |    2     |             9.80   | [Enlace](https://tienda.bricogeek.com/ruedas-robotica/1008-rueda-solarbotics-rw2i.html)                           |
+| Rueda Loca                  |    1     |             5.50   | [Enlace](https://tienda.bricogeek.com/robotica/995-rueda-loca-plastico-abs-34.html)                               |
+| Altavoz                     |    1     |             5.50   | [Enlace](https://tienda.bricogeek.com/varios/938-altavoz-con-caja-3w.html)                                        |
+| Controladores de Motor      |    1     |             5.95   | [Enlace](https://tienda.bricogeek.com/controladores-motores/999-controlador-de-motores-tb6612fng.html)            |
+| Microfono                   |    1     |             7.30   | [Enlace](https://tienda.bricogeek.com/sensores-sonido/1475-microfono-digital-mems-i2s-sph0645.html)               |
+| Controladora de Microfono   |    1     |             6.50   | [Enlace](https://tienda.bricogeek.com/arduino-compatibles/1274-nodemcu-esp32-wroom-wifi-bluetooth.html)           |
+| Camara                      |    1     |             19.95  | [Enlace](https://tienda.bricogeek.com/accesorios-raspberry-pi/822-camara-raspberry-pi-v2-8-megapixels.html)       |
+| Encoders de Motor           |    2     |             8.50   | [Enlace](https://tienda.bricogeek.com/accesorios-motores/932-encoders-para-motores-micro-metal-12cpr.html)        |
+| Breadboard y Cables         |    1     |             0.00   | —                                                                                                                 |
+| Chasis Impreso en 3D        |    1     |             4.00   | —                                                                                                                 |
+| **Total**                   |          |          **260.60**|                                                                                                                   |
 
 ---
 
