@@ -41,24 +41,6 @@ Segurito combina hardware robusto con módulos de software inteligentes para ofr
 
 ---
 
-## Modelo 3D
-
-El chasis completo del robot y los soportes de los componentes han sido diseñados en Fusion 360. Puedes encontrar los archivos del modelo aquí:
-
-- `models/Base.stl`
-- `models/SegundaPlanta.stl`
-- `models/Cupula.stl`
-
-<details>
-  <summary>Vista Previa del Ensamblaje 3D</summary>
-
-  ![Vista Previa 3D](img/3Dpiece1.png)
-  ![Vista Previa 3D](img/3Dpiece2.png)
-  ![Vista Previa 3D](img/3Dpiece3.png)
-</details>
-
----
-
 ## Características
 
 - **Mapeo Autónomo**: Genera un mapa en tiempo real del entorno usando LiDAR y SLAM.
@@ -86,6 +68,24 @@ El chasis completo del robot y los soportes de los componentes han sido diseñad
 | Controladores de Motores    |    2     |             40.00  | [Enlace](https://...)   |
 | Chasis Impreso en 3D        |    1     |             70.00  | —                       |
 | **Total**                   |          |           **625.00**|                         |
+
+---
+
+## Modelo 3D
+
+El chasis completo del robot y los soportes de los componentes han sido diseñados en Fusion 360. Puedes encontrar los archivos del modelo aquí:
+
+- `models/Base.stl`
+- `models/SegundaPlanta.stl`
+- `models/Cupula.stl`
+
+<details>
+  <summary>Vista Previa del Ensamblaje 3D</summary>
+
+  ![Vista Previa 3D](img/3Dpiece1.png)
+  ![Vista Previa 3D](img/3Dpiece2.png)
+  ![Vista Previa 3D](img/3Dpiece3.png)
+</details>
 
 ---
 
