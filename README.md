@@ -21,9 +21,8 @@
    - [Monitoreo Remoto](#monitoreo-remoto)
 8. [Algoritmos](#algoritmos)
 9. [Simulación](#simulación)
-10. [Documentación y Ejemplos](#documentación-y-ejemplos)
-11. [Contribuidores](#contribuidores)
-12. [Licencia](#licencia)
+10. [Contribuidores](#contribuidores)
+11. [Licencia](#licencia)
 
 ---
 
@@ -208,3 +207,7 @@ Ejecuta la escena en CoppeliaSim antes del despliegue de hardware:
 - 3 (@colleagueB) — Integración de Hardware  
 
 ¡Contribuciones bienvenidas! Consulta `CONTRIBUTING.md`.  
+
+---
+
+## Licencia
