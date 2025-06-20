@@ -1,59 +1,59 @@
-# Segurito
+# Segurito 
 
-![Project Logo](path/to/logo.png)
+![Logo del Proyecto](path/to/logo.png)
 
-## Table of Contents
+## Tabla de Contenidos
 
-1. [Introduction](#introduction)  
-2. [3D Model](#3d-model)  
-3. [Features](#features)  
-4. [Components & Costs](#components--costs)  
-5. [Architecture Diagrams](#architecture-diagrams)  
-   - [Hardware Diagram](#hardware-diagram)  
-   - [Software Diagram](#software-diagram)  
-6. [Installation](#installation)  
-   - [Requirements](#requirements)  
-   - [Setup Guide](#setup-guide)  
-7. [Usage](#usage)  
-   - [LiDAR Scanning & Mapping](#lidar-scanning--mapping)  
-   - [Motion Detection](#motion-detection)  
-   - [Object & Face Recognition](#object--face-recognition)  
-   - [Remote Monitoring](#remote-monitoring)  
-8. [Algorithms](#algorithms)  
-9. [Simulation](#simulation)  
-10. [Documentation & Examples](#documentation--examples)  
-11. [Contributors](#contributors)  
-12. [License](#license)  
-
----
-
-## Introduction
-
-Segurito is an autonomous security robot designed to patrol and monitor spaces as a dedicated security personnel would. Equipped with advanced sensors and cloud connectivity, Segurito:
-
-- Maps its environment using LiDAR and SLAM algorithms  
-- Detects obstacles and moving objects for safe navigation  
-- Identifies humans and animals via camera-based recognition  
-- Authenticates authorized personnel using facial recognition  
-- Sounds alarms and sends remote notifications upon intruder detection  
-- Listens for voice commands through an onboard microphone  
-
-Segurito combines robust hardware with intelligent software modules to deliver a comprehensive security solution.
+1. [Introducción](#introducción)
+2. [Modelo 3D](#modelo-3d)
+3. [Características](#características)
+4. [Componentes y Costos](#componentes-y-costos)
+5. [Diagramas de Arquitectura](#diagramas-de-arquitectura)
+   - [Diagrama de Hardware](#diagrama-de-hardware)
+   - [Diagrama de Software](#diagrama-de-software)
+6. [Instalación](#instalación)
+   - [Requisitos](#requisitos)
+   - [Guía de Instalación](#guía-de-instalación)
+7. [Uso](#uso)
+   - [Escaneo y Mapeo LiDAR](#escaneo-y-mapeo-lidar)
+   - [Detección de Movimiento](#detección-de-movimiento)
+   - [Reconocimiento de Objetos y Rostros](#reconocimiento-de-objetos-y-rostros)
+   - [Monitoreo Remoto](#monitoreo-remoto)
+8. [Algoritmos](#algoritmos)
+9. [Simulación](#simulación)
+10. [Documentación y Ejemplos](#documentación-y-ejemplos)
+11. [Contribuidores](#contribuidores)
+12. [Licencia](#licencia)
 
 ---
 
-## 3D Model
+## Introducción
 
-The complete robot chassis and component mounts have been designed in 3D CAD. You can find the model files here:
+Segurito es un robot de seguridad autónomo diseñado para patrullar y supervisar espacios como lo haría un vigilante dedicado. Equipado con sensores avanzados y conectividad en la nube, Segurito:
 
-- `models/segurito_base.stl`  
-- `models/lidar_mount.stl`  
-- `models/camera_holder.stl`  
+- Mapea su entorno usando algoritmos LiDAR y SLAM
+- Detecta obstáculos y objetos en movimiento para una navegación segura
+- Identifica humanos y animales mediante reconocimiento por cámara
+- Autentica al personal autorizado usando reconocimiento facial
+- Activa alarmas y envía notificaciones remotas al detectar intrusos
+- Atiende comandos de voz a través de un micrófono integrado
 
-<details>  
-  <summary>Preview GIF of 3D Assembly</summary>
+Segurito combina hardware robusto con módulos de software inteligentes para ofrecer una solución de seguridad integral.
 
-  ![3D Assembly Preview](path/to/3d_model_preview.gif)  
+---
+
+## Modelo 3D
+
+El chasis completo del robot y los soportes de los componentes han sido diseñados en CAD 3D. Puedes encontrar los archivos del modelo aquí:
+
+- `models/segurito_base.stl`
+- `models/lidar_mount.stl`
+- `models/camera_holder.stl`
+
+<details>
+  <summary>GIF de Vista Previa del Ensamblaje 3D</summary>
+
+  ![Vista Previa 3D](path/to/3d_model_preview.gif)
 </details>
 
 ---
