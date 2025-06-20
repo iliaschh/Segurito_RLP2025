@@ -147,31 +147,54 @@ El chasis completo del robot y los soportes de los componentes han sido diseñad
    source devel/setup.bash
    roslaunch segurito main.launch
    ```
+   
 ---
 
 ## Uso
 
 ### Escaneo y Mapeo LiDAR
    ```bash
-      rosrun segurito lidar_mapping.py \
-     --scan_topic /scan \
-     --output_map maps/segurito_map.pgm
+   rosrun segurito lidar_mapping.py \
+   --scan_topic /scan \
+   --output_map maps/segurito_map.pgm
    ```
+
 Genera una barrida de 360°, recoge nubes de puntos y guarda un mapa de ocupación.
 
 ### Detección de Movimiento
    ```bash
-      python3 src/motion_detector.py
+   python3 src/motion_detector.py
    ```
+
 Monitorea el sensor PIR conectado al GPIO 17.
 
 ### Reconocimiento de Objetos y Rostros
    ```bash
-      rosrun segurito recognition_node.py \
-     --model models/face_recognition.pkl
+   rosrun segurito recognition_node.py \
+   --model models/face_recognition.pkl
    ```
+
 Monitorea el sensor PIR conectado al GPIO 17.
 
 ### Monitoreo Remoto
+
 Accede a video en vivo y alertas en: [Enlace](https://...)
 
+---
+
+## Algoritmos
+
+- **SLAM**: Fusión con RTAB‑Map de nubes de puntos LiDAR y odometría.
+- **Planificación de Rutas**: A* sobre la cuadrícula de ocupación.
+- **Clasificación de Objetos**: CNN ResNet‑50 entrenada con COCO.
+- **Reconocimiento Facial**: Embeddings FaceNet + SVM.
+- **Alerta de Intrusos**: Combina confianza del reconocimiento con entrada PIR.
+
+---
+
+## Simulación
+
+Ejecuta la escena en CoppeliaSim antes del despliegue de hardware:
+   ```bash
+   coppeliaSim.sh scenes/segurito_scene.ttt
+   ```
