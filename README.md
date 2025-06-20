@@ -118,3 +118,34 @@ El chasis completo del robot y los soportes de los componentes han sido diseñad
 1. **Flashear el Sistema Operativo**
    ```bash
    sudo dd if=raspbian.img of=/dev/sdX bs=4M status=progress
+
+2. **Actualizar el Sistema**
+   ```bash
+   sudo apt-get update && sudo apt-get upgrade -y
+
+3. **Instalar ROS Noetic**
+   ```bash
+   sudo apt install ros-noetic-desktop-full
+   source /opt/ros/noetic/setup.bash
+
+4. **Instalar el Driver del LiDAR**
+   ```bash
+   sudo apt install ros-noetic-ydlidar
+
+5. **Clonar el Repositorio**
+   ```bash
+   git clone https://github.com/yourusername/segurito.git
+   cd segurito
+
+6. **Instalar Dependencias de Python**
+   ```bash
+   pip install -r requirements.txt
+
+7. **Compilar y Ejecutar**
+   ```bash
+   catkin_make
+   source devel/setup.bash
+   roslaunch segurito main.launch
+
+
+
