@@ -43,11 +43,11 @@ Segurito combina hardware robusto con módulos de software inteligentes para ofr
 
 ## Modelo 3D
 
-El chasis completo del robot y los soportes de los componentes han sido diseñados en CAD 3D. Puedes encontrar los archivos del modelo aquí:
+El chasis completo del robot y los soportes de los componentes han sido diseñados en Fusion 360. Puedes encontrar los archivos del modelo aquí:
 
-- `models/segurito_base.stl`
-- `models/lidar_mount.stl`
-- `models/camera_holder.stl`
+- `models/Base.stl`
+- `models/SegundaPlanta.stl`
+- `models/Cupula.stl`
 
 <details>
   <summary>Vista Previa del Ensamblaje 3D</summary>
