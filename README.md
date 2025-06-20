@@ -147,5 +147,14 @@ El chasis completo del robot y los soportes de los componentes han sido diseñad
    source devel/setup.bash
    roslaunch segurito main.launch
 
+---
+
+## Uso
+
+### Escaneo y Mapeo LiDAR
+```bash
+   rosrun segurito lidar_mapping.py \
+  --scan_topic /scan \
+  --output_map maps/segurito_map.pgm
 
 
