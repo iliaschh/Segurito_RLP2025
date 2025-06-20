@@ -58,71 +58,63 @@ El chasis completo del robot y los soportes de los componentes han sido diseñad
 
 ---
 
-## Features
+## Características
 
-- **Autonomous Mapping**: Builds a real‑time map of the environment using LiDAR and SLAM.  
-- **Collision Avoidance**: Detects and avoids obstacles.  
-- **Motion Detection**: PIR sensor for enhanced detection accuracy.  
-- **Human & Animal Recognition**: Classifies figures captured by the camera.  
-- **Facial Authentication**: Recognizes authorized faces to grant access.  
-- **Alarm System**: Sounds buzzer upon intruder detection.  
-- **Voice Commands**: Microphone for receiving commands.  
-- **Cloud Connectivity**: Sends alerts and live video feed to a remote dashboard.  
+- **Mapeo Autónomo**: Genera un mapa en tiempo real del entorno usando LiDAR y SLAM.
+- **Evitación de Colisiones**: Detecta y evita obstáculos.
+- **Detección de Movimiento**: Sensor PIR para mayor precisión.
+- **Reconocimiento de Humanos y Animales**: Clasifica las figuras capturadas por la cámara.
+- **Autenticación Facial**: Reconoce rostros autorizados para otorgar acceso.
+- **Sistema de Alarma**: Activa un zumbador al detectar intrusos.
+- **Comandos de Voz**: Micrófono para recibir instrucciones.
+- **Conectividad en la Nube**: Envía alertas y transmisión de video en vivo a un panel remoto.
 
----
-
-## Components & Costs
-
-| Component                   | Quantity | Approx. Cost (USD) | Vendor Link               |
-|-----------------------------|:--------:|-------------------:|---------------------------|
-| LiDAR Sensor (YDLIDAR X4)   |    1     |            350.00  | [Link](https://...)       |
-| Raspberry Pi 4B (4 GB RAM)  |    1     |             55.00  | [Link](https://...)       |
-| PIR Motion Sensor           |    1     |              5.00  | [Link](https://...)       |
-| Pi Camera HQ                |    1     |             50.00  | [Link](https://...)       |
-| Buzzer & Microphone Module  |    1     |             10.00  | [Link](https://...)       |
-| Battery Pack (12 V, 5000 mAh)|   1     |             45.00  | [Link](https://...)       |
-| Motor Controllers           |    2     |             40.00  | [Link](https://...)       |
-| 3D‑Printed Chassis          |    1     |             70.00  | —                         |
-| **Total**                   |          |           **625.00**|                           |
 
 ---
 
-## Architecture Diagrams
+## Componentes y Costos
 
-### Hardware Diagram
-
-![Hardware Diagram](path/to/hardware_diagram.png)
-
-### Software Diagram
-
-![Software Diagram](path/to/software_diagram.png)
+| Componente                  | Cantidad | Costo Aprox. (USD) | Enlace al Proveedor     |
+|-----------------------------|:--------:|-------------------:|-------------------------|
+| Sensor LiDAR (YDLIDAR X4)   |    1     |            350.00  | [Enlace](https://...)   |
+| Raspberry Pi 4B (4 GB RAM)  |    1     |             55.00  | [Enlace](https://...)   |
+| Sensor de Movimiento PIR    |    1     |              5.00  | [Enlace](https://...)   |
+| Pi Camera HQ                |    1     |             50.00  | [Enlace](https://...)   |
+| Módulo Zumbador y Micrófono |    1     |             10.00  | [Enlace](https://...)   |
+| Batería (12 V, 5000 mAh)    |    1     |             45.00  | [Enlace](https://...)   |
+| Controladores de Motores    |    2     |             40.00  | [Enlace](https://...)   |
+| Chasis Impreso en 3D        |    1     |             70.00  | —                       |
+| **Total**                   |          |           **625.00**|                         |
 
 ---
 
-## Installation
+## Diagramas de Arquitectura
 
-### Requirements
+### Diagrama de Hardware
 
-**Hardware**  
-- Raspberry Pi 4B (4 GB RAM) with Raspbian OS  
-- YDLIDAR X4 (or similar compatible LiDAR)  
-- Pi Camera HQ  
-- PIR motion sensor  
-- Buzzer & microphone module  
-- Motor drivers & DC motors  
-- 12 V battery pack  
+![Diagrama de Hardware](path/to/hardware_diagram.png)
 
-**Software**  
-- Python 3.9+  
-- OpenCV 4.x  
-- ROS Noetic  
-- NumPy, SciPy, Scikit‑learn  
-- SLAM library (e.g., `rtabmap_ros`)  
-- TensorFlow or PyTorch (for recognition models)  
+### Diagrama de Software
 
-### Setup Guide
+![Diagrama de Software](path/to/software_diagram.png)
 
-1. **Flash OS**  
+---
+
+## Instalación
+
+### Requisitos
+
+**Software**
+
+- Python 3.9+
+- OpenCV 4.x
+- ROS Noetic
+- NumPy, SciPy, Scikit‑learn
+- Librería SLAM (p. ej., `rtabmap_ros`)
+- TensorFlow o PyTorch (para modelos de reconocimiento)
+
+### Guía de Instalación
+
+1. **Flashear el Sistema Operativo**
    ```bash
-   # Write Raspbian image to SD card
    sudo dd if=raspbian.img of=/dev/sdX bs=4M status=progress
