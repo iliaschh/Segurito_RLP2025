@@ -91,7 +91,7 @@ El chasis completo del robot y los soportes de los componentes han sido diseñad
 
 ### Diagrama de Hardware
 
-![Diagrama de Hardware](path/to/hardware_diagram.png)
+![Diagrama de Hardware](img/EsquemaSegurito.png)
 
 ### Diagrama de Software
 
