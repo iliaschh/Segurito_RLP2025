@@ -198,3 +198,13 @@ Ejecuta la escena en CoppeliaSim antes del despliegue de hardware:
    ```bash
    coppeliaSim.sh scenes/segurito_scene.ttt
    ```
+
+---
+
+## Contribuidores
+
+- 1 (@yourusername) — Líder de Proyecto, SLAM y Navegación  
+- 2 (@colleagueA) — Visión y Reconocimiento  
+- 3 (@colleagueB) — Integración de Hardware  
+
+¡Contribuciones bienvenidas! Consulta `CONTRIBUTING.md`.  
