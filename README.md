@@ -5,9 +5,9 @@
 ## Tabla de Contenidos
 
 1. [Introducción](#introducción)
-2. [Modelo 3D](#modelo-3d)
+2. [Componentes y Costos](#componentes-y-costos)
 3. [Características](#características)
-4. [Componentes y Costos](#componentes-y-costos)
+4. [Modelo 3D](#modelo-3d)
 5. [Diagramas de Arquitectura](#diagramas-de-arquitectura)
    - [Diagrama de Hardware](#diagrama-de-hardware)
    - [Diagrama de Software](#diagrama-de-software)
