@@ -37,7 +37,7 @@ Segurito es un robot de seguridad autónomo diseñado para patrullar y supervisa
 - Activa alarmas y envía notificaciones remotas al detectar intrusos
 - Atiende comandos de voz a través de un micrófono integrado
 
-Segurito combina hardware robusto con módulos de software inteligentes para ofrecer una solución de seguridad integral.
+Segurito combina hardware con módulos de software inteligentes para dar una solución de seguridad integral.
 
 ---
 
@@ -47,8 +47,8 @@ Segurito combina hardware robusto con módulos de software inteligentes para ofr
 - **Evitación de Colisiones**: Detecta y evita obstáculos.
 - **Detección de Movimiento**: Sensor PIR para mayor precisión.
 - **Reconocimiento de Humanos y Animales**: Clasifica las figuras capturadas por la cámara.
-- **Autenticación Facial**: Reconoce rostros autorizados para otorgar acceso.
-- **Sistema de Alarma**: Activa un zumbador al detectar intrusos.
+- **Autenticación Facial**: Reconoce rostros autorizados para dar accesos.
+- **Sistema de Alarma**: Emite sonidos a traves del altavoz al detectar intrusos.
 - **Comandos de Voz**: Micrófono para recibir instrucciones.
 - **Conectividad en la Nube**: Envía alertas y transmisión de video en vivo a un panel remoto.
 
@@ -59,9 +59,9 @@ Segurito combina hardware robusto con módulos de software inteligentes para ofr
 
 | Componente                  | Cantidad | Costo Aprox. (USD) | Enlace al Proveedor     |
 |-----------------------------|:--------:|-------------------:|-------------------------|
-| Micro Metal Motors          |    2     |            35.00   | [Enlace](https://tienda.bricogeek.com/motores/113-motor-micro-metal-lp-con-reductora-10-1.html)                   |
+| Micro Metal Motors          |    2     |             35.00  | [Enlace](https://tienda.bricogeek.com/motores/113-motor-micro-metal-lp-con-reductora-10-1.html)                   |
 | Raspberry Pi 4B (4 GB RAM)  |    1     |             67.90  | [Enlace](https://tienda.bricogeek.com/placas-raspberry-pi/1330-raspberry-pi-4-model-b-4-gb.html)                  |
-| Sensor de Movimiento PIR    |    1     |              1.85  | [Enlace](https://tienda.bricogeek.com/sensores-distancia/1270-modulo-sensor-pir-hc-sr501.html)                    |
+| Sensor de Movimiento PIR    |    1     |             1.85   | [Enlace](https://tienda.bricogeek.com/sensores-distancia/1270-modulo-sensor-pir-hc-sr501.html)                    |
 | RPLIDAR-C1                  |    1     |             79.95  | [Enlace](https://tienda.bricogeek.com/sensores-distancia/1943-rplidar-c1-360-grados-12-metros-ip54.html)          |
 | Acelerometro y Giroscopio   |    1     |             2.95   | [Enlace](https://tienda.bricogeek.com/acelerometros/1682-modulo-gy-521-acelerometro-y-giroscopio-mpu-6050.html)   |
 | Ruedas Solarbotic           |    2     |             9.80   | [Enlace](https://tienda.bricogeek.com/ruedas-robotica/1008-rueda-solarbotics-rw2i.html)                           |
@@ -72,9 +72,10 @@ Segurito combina hardware robusto con módulos de software inteligentes para ofr
 | Controladora de Microfono   |    1     |             6.50   | [Enlace](https://tienda.bricogeek.com/arduino-compatibles/1274-nodemcu-esp32-wroom-wifi-bluetooth.html)           |
 | Camara                      |    1     |             19.95  | [Enlace](https://tienda.bricogeek.com/accesorios-raspberry-pi/822-camara-raspberry-pi-v2-8-megapixels.html)       |
 | Encoders de Motor           |    2     |             8.50   | [Enlace](https://tienda.bricogeek.com/accesorios-motores/932-encoders-para-motores-micro-metal-12cpr.html)        |
+| Powerbank y Bateria         |    2     |             10.00  | —                                                                                                                 |
 | Breadboard y Cables         |    1     |             0.00   | —                                                                                                                 |
 | Chasis Impreso en 3D        |    1     |             4.00   | —                                                                                                                 |
-| **Total**                   |          |          **260.60**|                                                                                                                   |
+| **Total**                   |          |          **270.60**|                                                                                                                   |
 
 ---
 
@@ -82,9 +83,9 @@ Segurito combina hardware robusto con módulos de software inteligentes para ofr
 
 El chasis completo del robot y los soportes de los componentes han sido diseñados en Fusion 360. Puedes encontrar los archivos del modelo aquí:
 
-- `models/Base.stl`
-- `models/SegundaPlanta.stl`
-- `models/Cupula.stl`
+- `3Dmodels/Base.stl`
+- `3Dmodels/SegundaPlanta.stl`
+- `3Dmodels/Cupula.stl`
 
 Vista Previa del Ensamblaje 3D
 
