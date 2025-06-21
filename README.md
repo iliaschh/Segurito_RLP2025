@@ -1,6 +1,6 @@
 # Segurito 
 
-![Logo del Proyecto](path/to/logo.png)
+![Logo del Proyecto](img/SeguritoBanner.png)
 
 ## Tabla de Contenidos
 
